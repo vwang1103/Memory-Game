@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temple of the Forgotten Code</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <main class="card" id="mainCard">
+      <div class="topline">
+        <div>
+          <h1>Temple of the Forgotten Code</h1>
+          <p class="tagline">Read carefully. Choose deliberately. The temple remembers.</p>
+        </div>
+      </div>
+      <div id="crumbs" class="crumbs"></div>
+      <section id="room" class="fade-enter">
+        <div id="content"></div>
+        <div id="message" class="message"></div>
+        <div class="global-timer" aria-live="polite">
+          <div class="timer-row"><span>Time Remaining</span><strong id="timerText">--:--</strong></div>
+          <div class="timer-track"><div id="timerFill"></div></div>
+        </div>
+        <div id="choices" class="choices"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
